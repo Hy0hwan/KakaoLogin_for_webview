@@ -1,0 +1,9 @@
+.kakao-login {
+  width: 200px;
+  height: auto;
+  transition: transform 0.1s ease-in-out; /* 클릭 시 부드러운 효과를 위해 transition 추가 */
+}
+
+.kakao-login:active {
+  transform: scale(0.95); /* 클릭 시 약간 작아지는 효과 */
+}
